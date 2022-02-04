@@ -1,0 +1,20 @@
+public class MathTable 
+{
+    public static void main(String[] args) 
+    {
+        byte end =12;
+        
+        for(int counter1=1;counter1<=end;counter1++)
+        {
+         for(int counter =counter1 ; counter<=end;counter++)
+         {
+             
+             System.out.print(counter1+"*"+counter+"="+(counter*counter1)+" " );
+         }
+         System.out.println();
+         
+        }
+        
+    }
+    
+}
